@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap");
+
+
 .recipe{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 1.5rem;
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgb(56, 55, 55);
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: white;
+    background: rgb(238, 193, 193);
     align-items: center;
     min-width: 40%;
 }
@@ -18,5 +23,5 @@
 
 .calories {
     border-radius: 20px;
-    box-shadow: 0px 5px 20px rgb(177, 177, 177);
+    box-shadow: 0px 5px 20px rgb(56, 55, 55);
 }
